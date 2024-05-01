@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- --------- CSS ---------- -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <title>PORTFOLIO | ARAVINDH</title>
+</head>
+
+<body>
+  <!-- --------------- NAVBAR --------------- -->
+
+  <div class="container">
+    <nav id="navbar" class="navbar">
+      <div class="nav-logo ">
+        <p class="nav-brand">Aravindh</p>
+      </div>
+      <div class="nav-menu " id="myNavMenu">
+        <ul class="nav-list">
+          <li class="nav-item active" href="#home">
+            <a href="#home" class="nav-link">
+              <span class="nav-icon"><ion-icon name="home-outline"></ion-icon></span>
+              <span class="text">Home</span>
+            </a>
+          </li>
+          <li class="nav-item" href="#about">
+            <a href="#about" class="nav-link">
+               <span class="nav-icon"><ion-icon name="person-outline"></ion-icon></span>
+               <span class="text">About</span>
+              </a>
+
+          </li>
+          <li class="nav-item " href="#services">
+            <a href="#services" class="nav-link">
+              <span class="nav-icon"><ion-icon name="cog-outline"></ion-icon></span>
+              <span class="text">Services</span>
+            </a>
+          </li>
+          <li class="nav-item" href="#projects">
+            <a href="#projects" class="nav-link">
+               <span class="nav-icon"><ion-icon name="briefcase-outline"></ion-icon></span>
+               <span class="text">Projects</span>
+              </a>
+          </li>
+          <li class="nav-item" href="#contact">
+            <a href="#contact" class="nav-link">
+               <span class="nav-icon"><ion-icon name="mail-open-outline"></ion-icon></span>
+              <span class="text">Contact</span>
+              </a>
+          </li>
+          <div class="indicator"></div>
+        </ul>
+      </div>
+      <div class="download ">
+        <button class="btn downbtn" type="button"><div>Download CV</div></button>
+      </div>
+
+      <div class="nav-btn " onclick="myMenuBar()">
+        <div class="bar">
+          <ion-icon name="menu-outline"></ion-icon>
+        </div>
+        <div class="close">
+          <ion-icon name="close-outline"></ion-icon>
+        </div>
+      </div>
+    </nav>
+    <div class="dark" onclick="change()">
+      <div class="light">
+      <ion-icon class="moon" name="moon-outline"></ion-icon>
+      <ion-icon class="sun" name="sunny-outline"></ion-icon>
+    </div>
+    </div>
+
+    <main class="wrapper">
+
+      <!-- --------------- HOME --------------- -->
+      <section id="home" class="featured-box">
+        <div class="featured-text" data-aos="fade-right" data-aos-duration="2000">
+          <div class="featured-text-card ">
+            <span>Aravindh</span>
+          </div>
+          <div class="featured-name ">
+            <p>I'm <span class="typedtext"></span></p>
+          </div>
+          <div class="featured-text-info ">
+            <p>Experienced frontend developer with passion for creating visually stunning and user-friendly websites.
+            </p>
+          </div>
+          <div class="featured-text-btn "  >
+            <button type="button" class="btn blue-btn">Hire Me</button>
+            <button type="button" class="btn downbtn"><div>Download CV</div></button>
+          </div>
+          <div class="social-icons ">
+            <div class="icon"><ion-icon name="logo-instagram"></ion-icon></div>
+            <div class="icon"><ion-icon name="logo-facebook"></ion-icon></div>
+            <div class="icon"><ion-icon name="logo-linkedin"></ion-icon></div>
+            <div class="icon"><ion-icon name="logo-github"></ion-icon></div>
+          </div>
+        </div>
+        <div class="featured-image" data-aos="fade-left" data-aos-duration="2000">
+          <div class="image">
+            <img src="assets/images/profile.png" alt="">
+            <span class="shadow"></span>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- --------------- ABOUT --------------- -->
+
+      <section class="about" id="about">
+       
+        <div class="aboutrow" data-aos="fade-left" data-aos-duration="2000">
+          
+          <div class="col-1" >
+            <div class="circle">
+            <div class="img">
+              <img src="assets/images/about1.png" alt="">
+            </div>
+            </div>
+            <div class="abouttxt">
+              <h1>I'm <span>Aravindh</span></h1>
+              <h2><span class="typedtext2"></span></h2>
+              <p>From Thanjavur</p>
+            </div>
+          </div>
+          <div class="col-2" >
+            <div class="about-info" >
+              <h1>About Me</h1>
+              
+          
+              <p>Hi there! <span>I'm Aravindh</span>,a passionate web developer eager to start my career in the world of coding.With a solid foundation in HTML,CSS,JavaScript and React JS. </p>
+              
+              <p>I thrive on challenges and constantly seek opportunities to expand my skills and knowledge in web developement.My goal is leverage my technical skills and creativity to contribute positively to projects while continuosly learning and growing in th dynamic field of web developement.I devote all my potential knowledge and expertise to build stunning websites</p>
+              
+
+              <div class="skills-wrapper">
+                <!-- <h2>Skills</h2> -->
+           <div class="skills" >
+            
+            <div class="skills-box">
+              <div class="skills-header">
+                <h2>Frontend</h2>
+              </div>
+              <div class="skills-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Bootstrap</span>
+                <span>JavaScript</span>
+                <span>React JS</span>
+              </div>
+            </div>
+            <div class="skills-box">
+              <div class="skills-header">
+                <h2>Database</h2>
+              </div>
+              <div class="skills-list">
+                <span>MYSQL</span>
+
+              </div>
+            </div>
+          </div>
+          </div>
+          <h3 class="last">Let's connect and build something amazing together!</h3>
+              
+            </div>
+          </div>
+         
+        </div>
+        
+        
+        
+
+
+        
+       
+
+
+        <div class="education">
+          
+          <div class="education-row">
+            
+              <h3 class="title">Education</h3>
+              <div class="education-box">
+  
+                
+                
+                <div class="education-content" >
+                  <div class="content" data-aos="fade-left" data-aos-duration="2000"
+                 >
+                    <div>
+                      <div class="year">2022 - 2024</div>
+                    <h3>Master Degree - Bharathidasan University</h3>
+                    <p>I completed my <span>Master of Computer Science</span> in <span>Annai Vailankanni Arts and Science College</span> in Thanjavur Afilliated to <span>Bharadhidasan University</span> Thiruchirappalli.</p>
+                    <p>I passed out with <span>First Class</span> and with a empowered Knowledge.</p>
+                    </div>
+                  </div>
+                </div>
+  
+  
+  
+                <div class="education-content">
+                  <div class="content" data-aos="fade-left" data-aos-duration="2000"
+                  data-aos-delay="300" 
+                    >
+                    <div>
+                      <div class="year">2019 - 2022</div>
+                    <h3>Bachelor Degree - Bharathidasan University</h3>
+                    <p>I completed my <span>Bachelor of Computer Science</span> in <span>Annai Vailankanni Arts and Science College</span> in Thanjavur Afilliated to <span>Bharadhidasan University</span> Thiruchirappalli.</p>
+                    <p>I passed out with <span>First Class</span> and with a empowered Knowledge.</p>
+                    </div>
+                  </div>
+                </div>
+  
+  
+  
+                <div class="education-content">
+                  <div class="content" data-aos="fade-left" data-aos-duration="2000"
+                  data-aos-delay="700" 
+                   >
+                    <div>
+                      <div class="year">2018 - 2019</div>
+                    <h3>High School - Matriculation</h3>
+                    <p>I completed my <span>12 th standard </span>in <span>St Joseph's Matriculation Higher Secondary School</span> in Thanjavur.</p>
+                    <p>I passed out with good marks and as a good quality man for a better society. </p>
+                    </div>
+                  </div>
+                </div>
+  
+  
+  
+                <div class="education-content">
+                  <div class="content" data-aos="fade-left" data-aos-duration="2000"
+                  data-aos-delay="1000" >
+                    <div>
+                      <div class="year">2016 - 2017</div>
+                    <h3>10th - Matriculation</h3>
+                    <p>I completed my <span>10 th standard </span>in <span>St Joseph's Matriculation Higher Secondary School</span> in Thanjavur.</p>
+                    <p>I passed out with good marks and as a good quality man for a better society. </p>
+                    </div>
+                  </div>
+                </div>
+  
+  
+  
+                                 
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- --------------- SERVICES --------------- -->
+
+      <section class="about" id="services">
+        <div class="top-header">
+          <h1>My <span>Services</span></h1>
+        </div>
+        <div class="service-container" >
+          <div class="service-box" data-aos="fade-right" data-aos-duration="2000">
+            <i><ion-icon name="desktop-outline"></ion-icon></i>
+            <h3>Ux Design</h3>
+            <p>I craft high-performing and delightful experiences tailored and conversion-focused</p>
+          </div>
+          <div id="service-box" class="service-box" data-aos="fade-up" data-aos-duration="2000" >
+            <i><ion-icon name="ribbon-outline"></ion-icon></i>
+            <h3>Branding</h3>
+            <p>I craft high-performing and delightful experiences tailored and conversion-focused</p>
+          </div>
+          <div class="service-box" data-aos="fade-left" data-aos-duration="2000"
+          >
+            <i><ion-icon name="code-slash-outline"></ion-icon></i>
+            <h3>Web Developement</h3>
+            <p>I craft high-performing and delightful experiences tailored and conversion-focused</p>
+          </div>
+        </div>
+
+      </section>
+
+
+      <!-- --------------- PROJECTS --------------- -->
+      <section id="projects" class="about" data-aos="fade-left" data-aos-duration="2000">
+        <div class="top-header" 
+        >
+          <h1>My Latest <span>Projects</span></h1>
+        </div>
+        <div class="project-box">
+          <div class="card-custom "
+          
+       >
+          
+            <img class="rounded-4 pro-img" src="assets/images/project1.png" alt="">
+            <div class="blur">
+            <div class="box-content">
+            <h4>e-Business Page</h4>
+            <p >Innovation that exceeds expectations. Astra is a true template equiqed with all the elements you could ever need to put together</p>
+            <a href="https://dhi1234.github.io/business-website/" >Visit Page</a>
+          </div>
+        </div>
+    </div>
+    <div class="card-custom "
+    
+       >
+      
+          <img class="rounded-4 pro-img" src="assets/images/project2.png"  alt="">
+          <div class="blur">
+        <div class="box-content">
+          <h4>A Coffee Shop Page</h4>
+          <p >Innovation that exceeds expectations. Astra is a true template equiqed with all the elements you could ever need to put together</p>
+          <a href="https://dhi1234.github.io/Coffe-shop--media/" >Visit Page</a>
+        </div>
+      </div>
+  </div>
+
+  <div class="card-custom "
+  
+       >
+    
+        <img class="rounded-4 pro-img" src="assets/images/project3.png" alt="">
+        <div class="blur">
+      <div class="box-content">
+        <h4>e-Commerce Page</h4>
+        <p >Innovation that exceeds expectations. Astra is a true template equiqed with all the elements you could ever need to put together</p>
+        <a href="https://dhi1234.github.io/E-commerce-website/" >Visit Page</a>
+      </div>
+    </div>
+</div>
+<div class="card-custom "
+
+       >
+  
+      <img class="rounded-4 pro-img" src="assets/images/project4.png" alt="">
+      <div class="blur">
+    <div class="box-content">
+      <h4>A Restaurant Page</h4>
+      <p class="white weight">Innovation that exceeds expectations. Astra is a true template equiqed with all the elements you could ever need to put together</p>
+      <a href="https://dhi1234.github.io/Restaurent-Website/" >Visit Page</a>
+    </div>
+  </div>
+</div>
+        </div>
+
+
+
+      </section>
+
+      <!-- --------------- CONTACT --------------- -->
+
+
+
+      <section class="contact" id="contact" 
+      >
+       <div class="contact-wrapper"
+       data-aos="fade-up" data-aos-duration="2000">
+        <div class="top-header">
+          <h1>Get in touch</h1>
+          <span>Do you want to hire me, contact me here</span>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="contact-info" >
+              <h2>Find Me <ion-icon name="arrow-down-outline"></ion-icon></h2>
+              <p><ion-icon name="mail-outline"></ion-icon> Email: aravindhs5802@gmail.com</p>
+              <p><ion-icon name="call-outline"></ion-icon></ion-icon> Tel: +91 6374380519</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-control">
+              <div class="form-inputs">
+                <input type="text" class="input-field" placeholder="name">
+                <input type="email" class="input-field" placeholder="email">
+              </div>
+              <div class="text-area">
+                <textarea placeholder="Message"></textarea>
+              </div>
+              <div class="form-button">
+                <button class="btn">Send <ion-icon name="paper-plane-outline"></ion-icon></button>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+      </section>
+
+      <!-- -------------- Footer ------------- -->
+
+
+      <footer>
+        <div class="top-footer">
+          <p>Aravindh .</p>
+        </div>
+        <div class="footer-social-icons">
+          <div class="icon"><ion-icon name="logo-instagram"></ion-icon></div>
+          <div class="icon"><ion-icon name="logo-facebook"></ion-icon></div>
+          <div class="icon"><ion-icon name="logo-linkedin"></ion-icon></div>
+          <div class="icon"><ion-icon name="logo-github"></ion-icon></div>
+        </div>
+        <div class="bottom-footer">
+          <p>Copyright &copy; <a href="#" style="text-decoration: none ;">Aravindh</a> - All rights reserved</p>
+        </div>
+      </footer>
+      
+      
+    </main>
+  </div>
+  
+  
+  
+  <!-- ----- TYPING JS Link ----- -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+  <!-- ----- SCROLL REVEAL JS Link----- -->
+ 
+
+  <!-- --------- IONICONS ---------- -->
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <!-- ----- MAIN JS ----- -->
+  <script src="assets/js/main.js"></script>
+
+  <!---------------- AOS   --------->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  
+</body>
+
+</html>
