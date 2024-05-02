@@ -271,6 +271,7 @@ a {
   transition: all 0.3s ease;
   color: var(--first-color);
   font-weight: 550;
+  z-index: 100;
   
  
 
