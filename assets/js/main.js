@@ -92,14 +92,14 @@ const scroll = () => {
 /* ----- TYPING EFFECT ----- */
 
 const typed = new Typed(".typedtext", {
-  strings: ["Designer", "Web Developer", "UI/UX Designer", "FreeLauncer"],
+  strings: ["Designer", "Web Developer", "UI/UX Designer"],
   typeSpeed: 160,
   backDelay: 1000,
   backSpeed: 80,
   loop: true
 })
 const typed2 = new Typed(".typedtext2", {
-  strings: ["Designer", "Web Developer", "UI/UX Designer", "FreeLauncer"],
+  strings: ["Designer", "Web Developer", "UI/UX Designer"],
   typeSpeed: 160,
   backDelay: 1000,
   backSpeed: 80,
